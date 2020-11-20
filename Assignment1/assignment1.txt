@@ -1,0 +1,125 @@
+1. What are Channels and Kernels (according to EVA)?
+
+
+
+2. Why should we (nearly) always use 3x3 kernels?
+
+
+
+
+
+3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 (type each layer output like 199x199 > 197x197...)
+
+
+If we apply the 3x3 kernel each operation reduces the size by 2. So we need to apply 99 filters to reach 1x1.
+
+Conv Operation 1:    199 x 199 -> 3x3 -> 197 x 197
+Conv Operation 2:    197 x 197 -> 3x3 -> 195 x 195
+Conv Operation 3:    195 x 195 -> 3x3 -> 193 x 193
+Conv Operation 4:    193 x 193 -> 3x3 -> 191 x 191
+Conv Operation 5:    191 x 191 -> 3x3 -> 189 x 189
+Conv Operation 6:    189 x 189 -> 3x3 -> 187 x 187
+Conv Operation 7:    187 x 187 -> 3x3 -> 185 x 185
+Conv Operation 8:    185 x 185 -> 3x3 -> 183 x 183
+Conv Operation 9:    183 x 183 -> 3x3 -> 181 x 181
+Conv Operation 10:    181 x 181 -> 3x3 -> 179 x 179
+Conv Operation 11:    179 x 179 -> 3x3 -> 177 x 177
+Conv Operation 12:    177 x 177 -> 3x3 -> 175 x 175
+Conv Operation 13:    175 x 175 -> 3x3 -> 173 x 173
+Conv Operation 14:    173 x 173 -> 3x3 -> 171 x 171
+Conv Operation 15:    171 x 171 -> 3x3 -> 169 x 169
+Conv Operation 16:    169 x 169 -> 3x3 -> 167 x 167
+Conv Operation 17:    167 x 167 -> 3x3 -> 165 x 165
+Conv Operation 18:    165 x 165 -> 3x3 -> 163 x 163
+Conv Operation 19:    163 x 163 -> 3x3 -> 161 x 161
+Conv Operation 20:    161 x 161 -> 3x3 -> 159 x 159
+Conv Operation 21:    159 x 159 -> 3x3 -> 157 x 157
+Conv Operation 22:    157 x 157 -> 3x3 -> 155 x 155
+Conv Operation 23:    155 x 155 -> 3x3 -> 153 x 153
+Conv Operation 24:    153 x 153 -> 3x3 -> 151 x 151
+Conv Operation 25:    151 x 151 -> 3x3 -> 149 x 149
+Conv Operation 26:    149 x 149 -> 3x3 -> 147 x 147
+Conv Operation 27:    147 x 147 -> 3x3 -> 145 x 145
+Conv Operation 28:    145 x 145 -> 3x3 -> 143 x 143
+Conv Operation 29:    143 x 143 -> 3x3 -> 141 x 141
+Conv Operation 30:    141 x 141 -> 3x3 -> 139 x 139
+Conv Operation 31:    139 x 139 -> 3x3 -> 137 x 137
+Conv Operation 32:    137 x 137 -> 3x3 -> 135 x 135
+Conv Operation 33:    135 x 135 -> 3x3 -> 133 x 133
+Conv Operation 34:    133 x 133 -> 3x3 -> 131 x 131
+Conv Operation 35:    131 x 131 -> 3x3 -> 129 x 129
+Conv Operation 36:    129 x 129 -> 3x3 -> 127 x 127
+Conv Operation 37:    127 x 127 -> 3x3 -> 125 x 125
+Conv Operation 38:    125 x 125 -> 3x3 -> 123 x 123
+Conv Operation 39:    123 x 123 -> 3x3 -> 121 x 121
+Conv Operation 40:    121 x 121 -> 3x3 -> 119 x 119
+Conv Operation 41:    119 x 119 -> 3x3 -> 117 x 117
+Conv Operation 42:    117 x 117 -> 3x3 -> 115 x 115
+Conv Operation 43:    115 x 115 -> 3x3 -> 113 x 113
+Conv Operation 44:    113 x 113 -> 3x3 -> 111 x 111
+Conv Operation 45:    111 x 111 -> 3x3 -> 109 x 109
+Conv Operation 46:    109 x 109 -> 3x3 -> 107 x 107
+Conv Operation 47:    107 x 107 -> 3x3 -> 105 x 105
+Conv Operation 48:    105 x 105 -> 3x3 -> 103 x 103
+Conv Operation 49:    103 x 103 -> 3x3 -> 101 x 101
+Conv Operation 50:    101 x 101 -> 3x3 -> 99 x 99
+Conv Operation 51:    99 x 99 -> 3x3 -> 97 x 97
+Conv Operation 52:    97 x 97 -> 3x3 -> 95 x 95
+Conv Operation 53:    95 x 95 -> 3x3 -> 93 x 93
+Conv Operation 54:    93 x 93 -> 3x3 -> 91 x 91
+Conv Operation 55:    91 x 91 -> 3x3 -> 89 x 89
+Conv Operation 56:    89 x 89 -> 3x3 -> 87 x 87
+Conv Operation 57:    87 x 87 -> 3x3 -> 85 x 85
+Conv Operation 58:    85 x 85 -> 3x3 -> 83 x 83
+Conv Operation 59:    83 x 83 -> 3x3 -> 81 x 81
+Conv Operation 60:    81 x 81 -> 3x3 -> 79 x 79
+Conv Operation 61:    79 x 79 -> 3x3 -> 77 x 77
+Conv Operation 62:    77 x 77 -> 3x3 -> 75 x 75
+Conv Operation 63:    75 x 75 -> 3x3 -> 73 x 73
+Conv Operation 64:    73 x 73 -> 3x3 -> 71 x 71
+Conv Operation 65:    71 x 71 -> 3x3 -> 69 x 69
+Conv Operation 66:    69 x 69 -> 3x3 -> 67 x 67
+Conv Operation 67:    67 x 67 -> 3x3 -> 65 x 65
+Conv Operation 68:    65 x 65 -> 3x3 -> 63 x 63
+Conv Operation 69:    63 x 63 -> 3x3 -> 61 x 61
+Conv Operation 70:    61 x 61 -> 3x3 -> 59 x 59
+Conv Operation 71:    59 x 59 -> 3x3 -> 57 x 57
+Conv Operation 72:    57 x 57 -> 3x3 -> 55 x 55
+Conv Operation 73:    55 x 55 -> 3x3 -> 53 x 53
+Conv Operation 74:    53 x 53 -> 3x3 -> 51 x 51
+Conv Operation 75:    51 x 51 -> 3x3 -> 49 x 49
+Conv Operation 76:    49 x 49 -> 3x3 -> 47 x 47
+Conv Operation 77:    47 x 47 -> 3x3 -> 45 x 45
+Conv Operation 78:    45 x 45 -> 3x3 -> 43 x 43
+Conv Operation 79:    43 x 43 -> 3x3 -> 41 x 41
+Conv Operation 80:    41 x 41 -> 3x3 -> 39 x 39
+Conv Operation 81:    39 x 39 -> 3x3 -> 37 x 37
+Conv Operation 82:    37 x 37 -> 3x3 -> 35 x 35
+Conv Operation 83:    35 x 35 -> 3x3 -> 33 x 33
+Conv Operation 84:    33 x 33 -> 3x3 -> 31 x 31
+Conv Operation 85:    31 x 31 -> 3x3 -> 29 x 29
+Conv Operation 86:    29 x 29 -> 3x3 -> 27 x 27
+Conv Operation 87:    27 x 27 -> 3x3 -> 25 x 25
+Conv Operation 88:    25 x 25 -> 3x3 -> 23 x 23
+Conv Operation 89:    23 x 23 -> 3x3 -> 21 x 21
+Conv Operation 90:    21 x 21 -> 3x3 -> 19 x 19
+Conv Operation 91:    19 x 19 -> 3x3 -> 17 x 17
+Conv Operation 92:    17 x 17 -> 3x3 -> 15 x 15
+Conv Operation 93:    15 x 15 -> 3x3 -> 13 x 13
+Conv Operation 94:    13 x 13 -> 3x3 -> 11 x 11
+Conv Operation 95:    11 x 11 -> 3x3 -> 9 x 9
+Conv Operation 96:    9 x 9 -> 3x3 -> 7 x 7
+Conv Operation 97:    7 x 7 -> 3x3 -> 5 x 5
+Conv Operation 98:    5 x 5 -> 3x3 -> 3 x 3
+Conv Operation 99:    3 x 3 -> 3x3 -> 1 x 1
+
+
+
+4. How are kernels initialized?
+
+
+When training a convolutional network, the kernel elements of the layers are usually initialized randomly. Training is the procedure of adjusting the values of these elements. While Training the values of the kernels changed slightly based on the predicted output
+
+
+
+5. What happens during the training of a DNN?
