@@ -9,6 +9,6 @@ Make a network that has:
     uses a maximum of 2 max-pooling layers
     must be trained for minimum of 20 epochs
 
-I used 6 converlution layer with the given kernel sizes and trained for the EMNIST dataset. 
+I used 6 convolution layers with the given kernel sizes and trained for the EMNIST dataset. 
 
 At the lost i got some issue.
