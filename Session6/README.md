@@ -1,5 +1,5 @@
 
-This notebook implements below loss & regularization:
+Target for Assignment-6:
 
     1. L1 + BN
     2. L2 + BN
