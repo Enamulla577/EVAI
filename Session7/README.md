@@ -6,3 +6,5 @@
 5. one of the layers must use Dilated Convolution
 6. use GAP (compulsory):- add FC after GAP to target #of classes (optional)
 7. achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1M. 
+
+
