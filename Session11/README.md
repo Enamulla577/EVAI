@@ -3,7 +3,7 @@
 ## Assignment
 
 1.  Write a code that draws this curve (without the arrows). In submission, you'll upload your drawn curve and code for that
-    1.  ![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/11s11.png?raw=true)
+    1.  ![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session11/assets/11s11.png?raw=true)
 2.  Write a code which
     1.  uses this new ResNet Architecture for Cifar10:
         1.  PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
@@ -40,20 +40,11 @@
     4.  Upload the github link for the model as described in A11.
     5.  What is your test accuracy?
 
-## Solution
-
-Github link: [https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb)
-
-Colab link: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/SuperConvergence.ipynb
-
-PySodium: [https://github.com/satyajitghana/PySodium](https://github.com/satyajitghana/PySodium)
-
-Triangle Pattern: [https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/CycleLR.ipynb](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/CycleLR.ipynb)
+## Solutions
 
 ### code for pattern
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/pattern_code.PNG?raw=true)
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/one_cycle_fig.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session11/assets/one_cycle_fig.png?raw=true)
 
 ## Model Stats
 
@@ -70,7 +61,7 @@ Params: 6,573,120
 [ 2020-04-11 17:52:58,137 - sodium.sodium.runner ] INFO: found the best lr : 0.609391
 ```
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/lr_finder.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session11/assets/lr_finder.png?raw=true)
 
 
 ```
@@ -80,8 +71,8 @@ Params: 6,573,120
 ```
 ### Learning Rate
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/lr_metric.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session11/assets/lr_metric.png?raw=true)
 
 ### Model Accuracy-Loss Curves
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/11_SuperConvergence/assets/model_stats.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session11/assets/model_stats.png?raw=true)
