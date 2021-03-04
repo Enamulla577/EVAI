@@ -29,7 +29,7 @@ Max Test Accuracy: 92.03
 
 ## Model Metrics
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/metrics_1.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session10/metrics_1.png?raw=true)
 
 ![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/metrics_2.png?raw=true)
 
