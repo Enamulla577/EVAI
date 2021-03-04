@@ -31,13 +31,13 @@ Max Test Accuracy: 92.03
 
 ![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session10/metrics_1.png?raw=true)
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/metrics_2.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session10/metrics_2.png?raw=true)
 
 ## Grad-CAM
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/gradcam.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session10/gradcam.png?raw=true)
 
 ## Misclassifications Grad-CAM
 
-![enter image description here](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/misclassified_gradcam.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session10/misclassified_gradcam.png?raw=true)
 
