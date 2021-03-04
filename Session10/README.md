@@ -18,10 +18,6 @@ Assignment:
 
 # Solution
 
-Github-Notebook : [https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb](https://github.com/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb)
-
-Google-Colab: https://colab.research.google.com/github/satyajitghana/TSAI-DeepVision-EVA4.0/blob/master/10_AdvancedTraining/AdvancedTraining.ipynb
-
 ## Model Stats
 
 ```
