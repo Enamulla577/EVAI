@@ -1,1 +1,44 @@
+{
+  "Golden_Retriever_Dogs_Grass_Puppy_Two_Sitting.jpg334654": {
+    "filename": "Golden_Retriever_Dogs_Grass_Puppy_Two_Sitting.jpg",
+    "size": 334654,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 354,
+          "y": 245,
+          "width": 358,
+          "height": 583
+        },
+        "region_attributes": {
+          "type": "dog",
+          "image_quality": {
+            "good": true,
+            "frontal": true,
+            "good_illumination": true
+          }
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 685,
+          "y": 218,
+          "width": 343,
+          "height": 630
+        },
+        "region_attributes": {
+          "type": "dog",
+          "image_quality": {
+            "good": true,
+            "frontal": true,
+            "good_illumination": true
+          }
+        }
+      }
+    ],
+    "file_attributes": { "caption": "", "public_domain": "no", "image_url": "" }
+  }
+}
 
