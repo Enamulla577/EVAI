@@ -39,7 +39,7 @@ Train: 63.22
 
 **Annotation**
 
-![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session12/AssignmentB/annotated.png?raw=true)
+![enter image description here](https://github.com/Enamulla577/EVAI/blob/main/Session12/AssignmentB/annotated_image.png?raw=true)
 
 
 **Clusters**
